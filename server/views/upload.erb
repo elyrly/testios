@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload document for transaction n°<%= @transaction_id %></title>
+    <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+    <link href="/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+          <h1>Upload document for transaction n°<%= @transaction_id %></h1>
+
+          <form action="/upload/<%=@transaction_id%>/<%=@party%>" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="document_type">Document Type</label>
+              <select class="form-control" name="document_type" id="document_type">
+                <% #@types.each do |type| %>
+                <option>contract</option>
+                <option>disclosure</option>
+                <option>report</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="document_file">Document Type</label>
+              <input type="file" name="document_file" id="document_file">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Upload</button>
+
+          </form>
+
+          <% if @preview_file %>
+          <embed type="application/pdf" width="100%" heigth="100%" src="<%=@preview_file%>">
+          <%end%>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

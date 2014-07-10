@@ -1,0 +1,10 @@
+ses-smtp-user.20140621-132014
+
+SMTP Username:
+AKIAJPV6UO3JCB4NYBIQ
+
+SMTP Password:
+Am1YaBknd+XCl4lDRLWycAEnIOZ7GvTGra7DEWhSpDN+
+
+docs:
+http://docs.aws.amazon.com/AWSRubySDK/latest/AWS/SimpleEmailService.html

@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'aws-sdk'
+gem "parse-ruby-client"
+gem "pry-rails"
+gem 'pry'

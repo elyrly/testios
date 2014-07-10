@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A83F90DC-836B-457C-B56B-C8E07919F060</string>
+	<key>IDESourceControlProjectName</key>
+	<string>zoomex</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>982AE7EA-5F1B-4DC2-900B-04F8569A0290</key>
+		<string>https://github.com/cfedersp/hackathons.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>smallbiz2014/ios/zoomex/zoomex.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>982AE7EA-5F1B-4DC2-900B-04F8569A0290</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cfedersp/hackathons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>982AE7EA-5F1B-4DC2-900B-04F8569A0290</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>982AE7EA-5F1B-4DC2-900B-04F8569A0290</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hackathons</string>
+		</dict>
+	</array>
+</dict>
+</plist>
